@@ -25,7 +25,7 @@ class Breakfastf : Fragment() {
 
     // initialize recyclerView and layout manager
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        recyclerView = view.findViewById(R.id.my_recycler_view)
+        recyclerView = view.findViewById(R.id.breakfast_recycler_view)
 
         // design the gridlayout count/row
         gridLayoutManager = GridLayoutManager(requireContext(), 3, LinearLayoutManager.VERTICAL, false)

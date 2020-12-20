@@ -11,8 +11,8 @@ class Adapter(fragmentManager: FragmentManager) : FragmentPagerAdapter(fragmentM
         return when(position){
             0 -> Ricef()
             1 -> Noodlesf()
-            2 -> Soupf()
-            3 -> Meatf()
+            2 -> Meatf()
+            3 -> Soupf()
             4 -> Vegetablef()
             5 -> Fruitf()
             6 -> Dessertf()
@@ -30,8 +30,8 @@ class Adapter(fragmentManager: FragmentManager) : FragmentPagerAdapter(fragmentM
         return when(position){
             0 -> "飯食"
             1 -> "麵食"
-            2 -> "湯品"
-            3 -> "肉類"
+            2 -> "肉類"
+            3 -> "湯品"
             4 -> "蔬菜"
             5 -> "水果"
             6 -> "甜點"
