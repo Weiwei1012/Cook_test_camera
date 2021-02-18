@@ -14,4 +14,5 @@
     <string name="easy">便當</string>
     <string name="sidedish">備餐</string>
     <string name="title">title</string>
+    <string name="string_open_camera">Open Camera</string>
 </resources>
